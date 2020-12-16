@@ -1,0 +1,11 @@
+<?php
+date_default_timezone_set("Asia/karachi");
+echo "hello world";
+echo "<h1>hello world</h1>";
+echo "<h2>hello world</h2>";
+echo "<h3>hello world</h3>";
+
+
+echo date("g i a");
+echo date (" <p> m j o </p>" )
+?>
