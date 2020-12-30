@@ -1,0 +1,79 @@
+<?php
+date_default_timezone_set("Asia/karachi");
+echo "hello world";
+echo "<h1>hello world</h1>";
+echo "<h2>hello world</h2>";
+echo "<h3>hello world</h3>";
+
+
+echo date("g i a");
+echo date (" <p> m j o </p>" );
+
+$marks=[45,76,99 ];
+var_dump($marks);
+echo "<br>";
+
+$cart=array("Apple","Mango","Banana");
+var_dump($cart);
+echo "<br>";
+
+$weight=[];
+
+$weight[0]=6/.89;
+$weight[10]=657.89;
+$weight[20]=617.89;
+var_dump($weight);
+
+echo $weight[1];
+
+
+
+
+$marks=[55,65,88];
+$names=["aqsa","sana","aqsa"];
+$my_data=array_combine($names,$marks);
+print_r($my_data);
+echo "<br>";
+$merged=array_merge($marks,$names);
+print_r($merged);
+
+
+
+$students=array(
+
+"Student001"=>array(
+"name"=>"maryum",
+"email"=>"maryum@gmail.com",
+"age"=>"22"
+),
+
+"Student002"=>array(
+    "name"=>"farhen",
+    "email"=>"farhen@gmail.com",
+    "age"=>"24"
+    )
+);
+
+echo $students["Student001"]["name"];
+echo "<br>";
+echo $students["Student001"]["email"];
+echo "<br>";
+echo $students["Student001"]["age"];
+echo "<br>";
+echo"----------------------------<br>";
+echo $students["Student002"]["name"];
+echo "<br>";
+echo $students["Student002"]["email"];
+echo "<br>";
+echo $students["Student002"]["age"];
+echo "<br>";
+
+$marks=[45,44,65,78,46,98,86,96];
+$count_me=array_count_values($marks);
+var_dump(array_sum($marks));
+$nums=range(0,100,10);
+print_r($nums);
+
+
+
+?>
